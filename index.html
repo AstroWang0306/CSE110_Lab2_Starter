@@ -1,106 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>My Website</title>
-	<style>
-		body {
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 0;
-			padding: 0;
-		}
-		
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		
-		h1 {
-			margin: 0;
-		}
-		
-		nav {
-			background-color: #ddd;
-			display: flex;
-			justify-content: space-between;
-			padding: 10px;
-		}
-		
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		
-		nav ul li {
-			display: inline-block;
-			margin-right: 20px;
-		}
-		
-		nav ul li a {
-			color: #333;
-			text-decoration: none;
-			padding: 10px;
-			transition: background-color 0.5s ease;
-		}
-		
-		nav ul li a:hover {
-			background-color: #f2f2f2;
-		}
-		
-		main {
-			margin: 20px;
-		}
-		
-		article {
-			background-color: #fff;
-			border: 1px solid #ddd;
-			margin-bottom: 20px;
-			padding: 20px;
-		}
-		
-		article h2 {
-			margin-top: 0;
-		}
-		
-		article p:last-child {
-			margin-bottom: 0;
-		}
-		
-		footer {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-	</style>
-</head>
-<body>
-	<header>
-		<h1>My Website</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-		<form action="#" method="get">
-			<input type="text" name="search" placeholder="Search...">
-			<button type="submit">Go</button>
-		</form>
-	</nav>
-	<main>
-		<article>
-			<h2>Article 1</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt nulla et lorem sagittis, vel dapibus augue ultrices. Nam fringilla eros a orci consectetur malesuada. Morbi gravida ex a leo dictum, et laoreet nisl ullamcorper. Suspendisse ac turpis risus.</p>
-			<p>Sed euismod euismod neque vitae gravida. Integer ornare sapien ex, nec hendrerit ipsum faucibus id. Aliquam nec tincidunt leo. Nulla facilisi.</p>
-		</article>
-		<article>
-			<h2>Article 2</h2>
-			<p>Curabitur non odio non ante maximus sodales. Ut nec elit elit. Duis placerat sapien quis neque rutrum, vel commodo velit tincidunt. Praesent luctus elementum
+<html lang="en">
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <body>
+    <header>
+      <h1>Sample Team Meeting Minutes</h1>
+      <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#old-business">Old Business</a></li>
+          <li><a href="#new-business">New Business</a></li>
+          <li><a href="#misc">Miscellaneous</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Astro Wang</li>
+          <li>Justin Wi</li>
+          <li>Sean Change</li>
+        </ul>
+      </section>
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Discuss progress on project X</li>
+          <li>Brainstorm new ideas for project Y</li>
+          <li>Assign tasks for next week</li>
+        </ol>
+      </section>
+      <section id="old-business">
+        <h2>Old Business</h2>
+        <ul>
+          <li>Task A was completed</li>
+          <li>Task B was not completed</li>
+          <li>Discussion on Task C was tabled for next week</li>
+        </ul>
+      </section>
+      <section id="new-business">
+        <h2>New Business</h2>
+        <ul>
+          <li>Project A was added to the agenda</li>
+          <li>Project B was assigned to Jane Smith</li>
+        </ul>
+      </section>
+      <section id="misc">
+        <h2>Miscellaneous</h2>
+        <p>Astro presented a diagram of the proposed architecture for project X.</p>
+      </section>
+  </body>
+</html>
